@@ -1,0 +1,15 @@
+html {
+  background-color: rebeccapurple;
+}
+
+.qt {
+  display: none;
+}
+.show {
+  display: block;
+}
+.lorem {
+  background-color: bisque;
+  width: 30%;
+  margin-bottom: 50px;
+}
