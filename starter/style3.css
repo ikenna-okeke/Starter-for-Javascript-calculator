@@ -1,179 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #696969;
+}
+header {
+  text-align: center;
+  margin-top: 50px;
+  padding: 5px;
+  font-family: "BhuTuka Expanded One", cursive;
+}
 .calcbody {
-    position: absolute;
-    width: 50%;
-    height: 800px;
-    background-color: black;
-  }
-  
-  .soln {
-    width: 97%;
-    height: 100px;
-    background-color: black;
-    color: aliceblue;
-    font-size: 30px;
-  }
-  
-  .ac {
-    background-color: purple;
-    width: 50%;
-    height: 50px;
-    text-align: center;
-  }
-  
-  .del {
-    background-color: azure;
-    width: 25%;
-    height: 50px;
-    margin-top: 0px;
-    margin-left: -4px;
-  }
-  .divide {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -5px;
-    margin-top: -1px;
-  }
-  .one {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -185px;
-    margin-top: 50px;
-  }
-  .two {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -124px;
-    margin-top: 50px;
-  }
-  .three {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -64px;
-    margin-top: 50px;
-  }
-  .multiply {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -4px;
-    margin-top: 50px;
-  }
-  
-  .four {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -185px;
-    margin-top: 99px;
-  }
-  .five {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -124px;
-    margin-top: 99px;
-  }
-  .six {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -64px;
-    margin-top: 99px;
-  }
-  .plus {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -4px;
-    margin-top: 99px;
-  }
-  .seven {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -185px;
-    margin-top: 149px;
-  }
-  .eight {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -125px;
-    margin-top: 149px;
-  }
-  .nine {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -64px;
-    margin-top: 149px;
-  }
-  .minus {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -4px;
-    margin-top: 149px;
-  }
-  
-  .full {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -185px;
-    margin-top: 198px;
-  }
-  .zero {
-    background-color: azure;
-    position: absolute;
-    width: 12.5%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -125px;
-    margin-top: 198px;
-  }
-  .equals {
-    background-color: azure;
-    position: absolute;
-    width: 25%;
-    height: 50px;
-    font-size: 30px;
-    margin-left: -64px;
-    margin-top: 198px;
-  }
-  
-  .hidden {
-    display: none;
-  }
+  width: 50%;
+  margin: auto;
+}
+
+.soln {
+  background-color: rgb(63, 58, 58);
+  width: 99%;
+  border-radius: 5px;
+  height: 70px;
+  font-size: 30px;
+  color: white;
+}
+
+.ac {
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #800080;
+}
+
+.del {
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+}
+.divide {
+  width: 17%;
+  height: 40px;
+  border-radius: 5px;
+}
+.group {
+  width: 24%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.equals {
+  width: 49%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #800080;
+}
