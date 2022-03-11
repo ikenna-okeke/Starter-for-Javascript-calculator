@@ -13,8 +13,9 @@ header {
   font-family: "BhuTuka Expanded One", cursive;
 }
 .calcbody {
-  width: 50%;
+  width: 30%;
   margin: auto;
+  text-align: center;
 }
 
 .soln {
@@ -28,31 +29,31 @@ header {
 
 .ac {
   width: 50%;
-  height: 40px;
+  height: 80px;
   border-radius: 5px;
   background-color: #800080;
 }
 
 .del {
   width: 30%;
-  height: 40px;
+  height: 80px;
   border-radius: 5px;
 }
 .divide {
   width: 17%;
-  height: 40px;
+  height: 80px;
   border-radius: 5px;
 }
 .group {
   width: 24%;
-  height: 30px;
+  height: 65px;
   border-radius: 5px;
   font-size: 20px;
 }
 
 .equals {
   width: 49%;
-  height: 30px;
+  height: 65px;
   border-radius: 5px;
   background-color: #800080;
 }
